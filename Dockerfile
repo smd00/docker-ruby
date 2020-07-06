@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt update && apt install software-properties-common -y
 RUN apt-add-repository -y ppa:rael-gc/rvm
