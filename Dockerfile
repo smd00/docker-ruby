@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM ruby:2.4.4
 
 WORKDIR /app 
 COPY . .
